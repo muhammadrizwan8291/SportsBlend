@@ -16,7 +16,7 @@ function App() {
       
       {/* <Route path = "/login" element = {<Login />} /> */}
       <Route path = "/signup" element = { <Signup /> } />
-      <Route path = "/adminDashboard" element = { <AdminDashboard /> } />
+      <Route path = "/adminDashboard" element = { <AdminDashboardaaa /> } />
       <Route path = "/home" element = { <Home /> } />
       <Route path = "/" element = { <Login /> } />
       {/* <Route path = "/home" element k= { <Home /> } /> */}
