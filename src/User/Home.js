@@ -2,14 +2,27 @@ import React from 'react'
 import Navbar from '../Layout/Navbar';
 import './home.css';
 import { Link } from "react-router-dom";
-import Footer from '../Layout/Footer';
-// import SearchPopup from './SearchPopup';
+import Footer from '../Layout/Footer'
+import { useState } from 'react';
 
 
 function Home() {
+  const [colorChange, setColorchange] = useState("");
+  const changeNavbarColor = () => {
+      if (window.scrollY >= 0) {
+          setColorchange(" rgb(0,0,0)");
+      }
+      else {
+          setColorchange("");
+      }
+  };
+  window.addEventListener('scroll', changeNavbarColor);
+  // return (
+  //     <div className='mpBG'>
+  //         <Navbar bgcolor={colorChange} />
   return (
     <div>
-    <Navbar/>
+    <Navbar bgcolor={colorChange} />
    <div className="background-container">
     
    <div className='home-root'>

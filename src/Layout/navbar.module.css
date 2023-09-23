@@ -1,0 +1,262 @@
+/* @font-face {
+    font-family: 'PoppinsLight';
+    src: url('../../../PoppinsFonts/Poppins-Light.ttf');
+}
+
+@font-face {
+    font-family: 'PoppinsExtraLight';
+    src: url('../../../PoppinsFonts/Poppins-ExtraLight.ttf');
+}
+
+* {
+    font-family: 'PoppinsLight';
+} */
+
+
+#hh{
+     
+    position: relative;
+
+    border-style: none;
+    border-radius: 5px;
+    margin-right: 3px;
+    background-color: #651a1a;
+    color: white;
+    
+ 
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.rootnav {
+    background: black;
+    margin-top: -1rem;
+    padding: 0%
+}
+
+.navbar {
+    /* background-color: rgba(70, 70, 70, 0); */
+    overflow: hidden;
+    z-index: 100;
+    position: fixed;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    height: 5rem;
+
+}
+
+.navbar .navitems {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 100%;
+    margin-bottom: 0%;
+    padding-top: 0.5%;
+}
+
+.navbar .navitems li .heading {
+    color: black;
+    font-size: 1.5rem;
+}
+
+.navbar .navitems li h1 span {
+    color: rgb(127, 123, 123);
+}
+
+.navlink {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    /* padding: 2rem 2rem; */
+    cursor: pointer;
+}
+
+.navlink:hover {
+    color: rgb(127, 123, 123);
+    font-weight: bold;
+}
+
+.searchbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3B3B3B;
+
+
+}
+
+.searchbar input {
+    border: none;
+    border-radius: 10px;
+    padding: 4px;
+    color: #fff;
+    background-color: transparent;
+}
+
+
+
+.searchbar input::placeholder {
+    color: rgb(255, 255, 255);
+    padding: 5px;
+}
+
+.searchbar input:focus {
+    outline: none;
+
+}
+
+.searchbar .btn {
+    position: relative;
+
+    border-style: none;
+    border-radius: 5px;
+    margin-right: 3px;
+    background-color: #3B3B3B;
+    color: white;
+    
+
+}
+
+.navicons {
+    color: white;
+    margin: auto 10px;
+    
+    padding:1rem;
+}
+
+
+.centerSearch {
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+    /* height: 100%; */
+}
+
+.logoDiv {
+    width: 30%;
+    margin: 0%;
+
+}
+
+.tempSpace {
+    width: 30%;
+    display: none;
+}
+
+
+.logo {
+    height: 80px;
+    position: relative;
+    top: 5px;
+    /* margin-left: 7%; */
+    -webkit-user-drag: none;
+}
+
+.searchbar.focused {
+    border: 1px solid white;
+    /* Border style when focused */
+}
+
+.bars {
+    color: #fff;
+    margin-left: 10px;
+    display: none;
+}
+
+
+@media(max-width:1055px) {
+
+    .logo {
+        right: 10%;
+    } 
+    .navbar {
+        overflow: visible;
+    }
+
+
+  .navlink {
+        background-color: #3b3b3bfa;
+    }
+
+
+    .bars {
+        display: block;
+    }
+
+    .centerItems.open {
+        display: block;
+        top: 100%; 
+
+    }
+
+    .logo {
+        float: left;
+    }
+
+    .centerSearch {
+        position: relative;
+        left: 10%;
+        padding-top: 0.7%;
+    }
+}
+
+@media (max-width:603px) {
+
+    .logoDiv {
+        display: block;
+        width: auto;
+        position: relative;
+        right: 6%;
+    }
+
+    .searchbar {
+        width: auto;
+
+    }
+
+    .navbar .navitems { 
+        padding-top: 1%;
+    }
+ 
+    .searchbar {
+        background-color: transparent;
+    }
+
+    .searchbar input {
+        display: none;
+    }
+
+    .searchbar .btn {
+        background-color: transparent;
+        font-size: 1.3rem;
+    }
+
+    .navbar {
+        padding-right: 8%;
+    }
+
+    /*     
+    .centerSearch { 
+        right: 20%; 
+        background-color: red;
+    } */
+
+    .bars {
+        margin-right: 10%;
+        font-size: 1.3rem;
+    }
+
+    .navicons {
+        font-size: 1.3rem;
+    }
+    .navbar .navitems { 
+        padding-top: 1.5%;
+    }
+
+}

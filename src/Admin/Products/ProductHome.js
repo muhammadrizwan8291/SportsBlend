@@ -40,7 +40,7 @@ function ProductHome() {
                                         <td className="text-center">{product.name}</td>
                                         <td className="text-center">{product.price}</td>
                                         <td className="text-center">{product.description}</td>
-                                        <td className="text-center">
+                                        <td className="text-center overflow-hidden">
                                             {product.image && (
                                                 <div className="d-flex justify-content-center">
                                                     <img

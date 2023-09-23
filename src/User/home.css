@@ -9,7 +9,7 @@
 }
 
 .home-root {
-  padding: 3%;
+  padding: 7rem;
   padding-left: 5%;
   color: black;
   line-height: 1;
@@ -21,12 +21,13 @@
   font-weight: bold;
   font-size: 5rem;
   line-height:  1;
+
 }
 
 .home-root h5 {
   font-style: italic;
   line-height: .5;
-  padding-left: 5%;
+  padding-left: 3%;
 }
 
 .home-root h1 span {
