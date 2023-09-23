@@ -1,0 +1,50 @@
+.footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.heading {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(95, 95, 224);
+  font-size: 2.5rem;
+}
+
+.para {
+  text-align: center;
+  margin: 1rem 0rem 1rem 0rem;
+  font-size: 1rem;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  margin-top: 2rem;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  position: relative;
+  justify-content: center;
+  /* left: 41%; */
+}
+
+.icons li a {
+  color: aliceblue;
+  background:  rgb(95, 95, 224);
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.footer-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-row  {
+  flex: 1;
+  text-align: center;
+}

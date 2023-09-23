@@ -15,11 +15,11 @@ const Sidebar = () => {
                     <FontAwesomeIcon icon={faDashboard}></FontAwesomeIcon>  Dashboard</Link>
                     </li>
                     <li>
-                    <Link  className="bar-link" to="/">
+                    <Link  className="bar-link" to="/categoryHome">
                     <FontAwesomeIcon icon={faFolderOpen}></FontAwesomeIcon>  Add_Categories</Link>
                     </li>
                     <li>
-                    <Link className="bar-link" to="/">
+                    <Link className="bar-link" to="/productHome">
                     <FontAwesomeIcon icon={faBox}></FontAwesomeIcon>  Manage_Products</Link>
                     </li>
                     <li>

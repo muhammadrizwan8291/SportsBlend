@@ -1,37 +1,38 @@
-
 .background-container {
   background-image: url('./home.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top  center;
+  background-position: top center;
   min-height: 80vh;
   padding: 0%;
-  margin-top: 0% ;
+  margin-top: 0%;
 }
 
 .home-root {
- 
   padding: 3%;
   padding-left: 5%;
   color: black;
   line-height: 1;
+  width: full screen;
 }
 
-.home-root h1
-{
+.home-root h1 {
   text-shadow: 1px 1px 1px rgb(129, 67, 67);
   font-weight: bold;
   font-size: 5rem;
-  line-height: .5;
+  line-height:  1;
 }
-.home-root h5{
+
+.home-root h5 {
   font-style: italic;
   line-height: .5;
   padding-left: 5%;
 }
-.home-root h1 span{
-  color:rgb(127, 123, 123);
+
+.home-root h1 span {
+  color: rgb(127, 123, 123);
 }
+
 .home-root button {
   width: 15%;
   display: block;
@@ -45,19 +46,18 @@
   border-radius: 30px;
   font-weight: bold;
   letter-spacing: .5px;
-
 }
 
-.linkButton{
+.linkButton {
   color: rgb(127, 123, 123);
   text-decoration: none;
 }
 
-.home-root button:hover{
+.home-root button:hover {
   color: black;
   background: whitesmoke;
 }
-.home-root .linkButton{
-  color: rgb(127, 123, 123);;
-}
 
+.home-root .linkButton {
+  color: rgb(127, 123, 123);
+}
