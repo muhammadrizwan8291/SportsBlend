@@ -6,6 +6,8 @@ import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
+
+
 function Navbar() {
   return (
     <div className='root-nav'>

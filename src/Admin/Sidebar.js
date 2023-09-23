@@ -15,17 +15,18 @@ const Sidebar = () => {
                     <FontAwesomeIcon icon={faDashboard}></FontAwesomeIcon>  Dashboard</Link>
                     </li>
                     <li>
-                    <Link  className="bar-link" to="/">
-                    <FontAwesomeIcon icon={faFolderOpen}></FontAwesomeIcon>  Add_Category</Link>
+                    <Link  className="bar-link" to="/categoryHome">
+                    <FontAwesomeIcon icon={faFolderOpen}></FontAwesomeIcon>  Add_Categories</Link>
+                    </li>
+                    <li>
+                    <Link className="bar-link" to="/productHome">
+                    <FontAwesomeIcon icon={faBox}></FontAwesomeIcon>  Manage_Products</Link>
                     </li>
                     <li>
                     <Link className="bar-link" to="/">
-                    <FontAwesomeIcon icon={faBox}></FontAwesomeIcon>  Manage_Product</Link>
+                    <FontAwesomeIcon icon={faCartArrowDown}></FontAwesomeIcon>  Manage_Orders</Link>
                     </li>
-                    <li>
-                    <Link className="bar-link" to="/">
-                    <FontAwesomeIcon icon={faCartArrowDown}></FontAwesomeIcon>  Manage_Order</Link>
-                    </li>
+                    
                     <li>
                     <Link className="bar-link" to="/login">
                     <FontAwesomeIcon icon={faSignOut}></FontAwesomeIcon>  Logout</Link>

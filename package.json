@@ -1,19 +1,28 @@
 {
-  "name": "authintication",
+  "name": "sportsblend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@mui/material": "^5.14.7",
     "@mui/styled-engine-sc": "^5.14.7",
+    "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.1",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mongoose": "^7.5.2",
+    "multer": "^1.4.5-lts.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-redux": "^8.1.2",
     "react-router-dom": "^6.15.0",
     "react-scripts": "^2.1.3",
     "styled-components": "^5.3.11",
@@ -42,5 +51,21 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammadrizwan8291/SportsBlend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muhammadrizwan8291/SportsBlend/issues"
+  },
+  "homepage": "https://github.com/muhammadrizwan8291/SportsBlend#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }

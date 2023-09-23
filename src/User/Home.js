@@ -1,8 +1,9 @@
 import React from 'react'
-import Navbar from './Navbar';
+import Navbar from '../Layout/Navbar';
 import './home.css';
 import { Link } from "react-router-dom";
-// import Footer from './Footer';
+import Footer from '../Layout/Footer';
+// import SearchPopup from './SearchPopup';
 
 
 function Home() {
@@ -18,6 +19,8 @@ function Home() {
    <button type="submit"><Link className='linkButton' to="/login">Logout</Link></button>
     </div>
    </div>
+   
+   <Footer/>
     </div>
   )
 }
